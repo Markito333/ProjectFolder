@@ -13,22 +13,22 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen4.jpg',
       '/imgs/projects/Imagen5.jpg',
     ],
-    status: 'public',
+    status: 'private',
     link: 'https://example.com/vetsys',
     duration: '6 meses',
   },
   {
     id: '2',
-    title: 'Blog Personal',
+    title: 'Blog Cristiano',
     company: 'Independiente',
     description:
-      'Blog personal con artículos sobre tecnología, diseño y desarrollo web, con sistema de comentarios y búsqueda.',
+      'Blog cristiano, para publicacion y consultas sobre consejería cristiana.',
     mainPhoto: '/imgs/projects/blog.png',
     photos: [
       '/imgs/projects/imagen6.jpg',
       '/imgs/projects/Imagen7.jpg',
     ],
-    status: 'public',
+    status: 'in-progress',
     link: 'https://example.com/blog',
     duration: '2 meses',
   },
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen8.jpg',
       '/imgs/projects/Imagen9.jpg',
     ],
-    status: 'public',
+    status: 'in-progress',
     link: 'https://example.com/neuronalbible',
     duration: '8 meses',
   },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen10.jpg',
       '/imgs/projects/Imagen11.jpg',
     ],
-    status: 'private',
+    status: 'public',
     duration: '5 meses',
   },
   {
@@ -101,7 +101,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen4.jpg',
       '/imgs/projects/Imagen5.jpg',
     ],
-    status: 'private',
+    status: 'public',
     duration: '7 meses',
   },
   {
@@ -147,5 +147,33 @@ export const projects: Project[] = [
     ],
     status: 'in-progress',
     duration: '2 meses',
+  },
+   {
+    id: '11',
+    title: 'Panaderia IToto',
+    company: 'PanaderiaIItoto',
+    description:
+      'Plataforma web para ventas, pedidos en la panaderia ittoto.',
+    mainPhoto: '/imgs/projects/panaderia.png',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'private',
+    duration: '1 mes',
+  },
+  {
+    id: '12',
+    title: 'Ventas Martin',
+    company: 'VentasMartin',
+    description:
+      'Plataforma web para ventas y facturas con afip integración.',
+    mainPhoto: '/imgs/projects/ventasmartin.png',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'private',
+    duration: '1 mes',
   },
 ];
