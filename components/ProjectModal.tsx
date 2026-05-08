@@ -157,13 +157,13 @@ export default function ProjectModal({
                 fontWeight: 500,
                 backgroundColor:
                   project.status === 'public'
-                    ? '#d1fae5'
+                    ? '#bbf7d0'
                     : project.status === 'in-progress'
                       ? '#fef3c7'
-                      : '#fee2e2',
+                      : '#fecaca',
                 color:
                   project.status === 'public'
-                    ? '#065f46'
+                    ? '#166534'
                     : project.status === 'in-progress'
                       ? '#92400e'
                       : '#991b1b',
@@ -176,10 +176,10 @@ export default function ProjectModal({
                   borderRadius: '50%',
                   backgroundColor:
                     project.status === 'public'
-                      ? '#059669'
+                      ? '#166534'
                       : project.status === 'in-progress'
-                        ? '#d97706'
-                        : '#dc2626',
+                        ? '#92400e'
+                        : '#991b1b',
                   display: 'inline-block',
                 }}
               />

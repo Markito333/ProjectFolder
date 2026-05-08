@@ -60,11 +60,16 @@ export default function ProjectCard({
               fontWeight: 500,
               backgroundColor:
                 project.status === 'public'
-                  ? 'rgba(52,211,153,0.85)'
+                  ? 'rgba(187,247,208,0.9)'
                   : project.status === 'in-progress'
-                    ? 'rgba(251,191,36,0.85)'
-                    : 'rgba(239,68,68,0.8)',
-              color: '#fff',
+                    ? 'rgba(254,243,199,0.9)'
+                    : 'rgba(254,202,202,0.9)',
+              color:
+                project.status === 'public'
+                  ? '#166534'
+                  : project.status === 'in-progress'
+                    ? '#92400e'
+                    : '#991b1b',
             }}
           >
             <span
@@ -72,7 +77,12 @@ export default function ProjectCard({
                 width: '5px',
                 height: '5px',
                 borderRadius: '50%',
-                backgroundColor: '#fff',
+                backgroundColor:
+                  project.status === 'public'
+                    ? '#166534'
+                    : project.status === 'in-progress'
+                      ? '#92400e'
+                      : '#991b1b',
                 display: 'inline-block',
               }}
             />
