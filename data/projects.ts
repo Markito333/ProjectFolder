@@ -134,4 +134,18 @@ export const projects: Project[] = [
     link: 'https://example.com/recetas',
     duration: '3 meses',
   },
+  {
+    id: '10',
+    title: 'Plataforma IoT',
+    company: 'SmartHome',
+    description:
+      'Plataforma de Internet de las Cosas para hogares inteligentes con control remoto de dispositivos, automatización de rutinas y monitoreo en tiempo real mediante sensores.',
+    mainPhoto: '/imgs/projects/Imagen11.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'in-progress',
+    duration: '2 meses',
+  },
 ];

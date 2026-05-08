@@ -20,46 +20,102 @@ export default function ProjectsPage() {
   );
 
   return (
-    <div className="min-h-screen bg-white">
+    <div style={{ minHeight: '100vh', backgroundColor: '#fff' }}>
       <Header />
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
-          <div className="flex items-center gap-2">
-            <img
-              src="/imgs/profile.jpg"
-              alt=""
-              className="w-7 h-7 rounded-full object-cover"
-            />
-            <div>
-              <h1 className="text-3xl font-bold text-black">
-                Marcos <span className="text-yellow-500">David</span> - Proyectos
-              </h1>
-              <p className="mt-0.5 text-gray-500">
-                Todos mis trabajos organizados en un solo lugar.
-              </p>
-            </div>
+      <main
+        style={{
+          maxWidth: '1280px',
+          margin: '0 auto',
+          padding: '40px 24px',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'flex-end',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            gap: '16px',
+            marginBottom: '40px',
+          }}
+        >
+          <div>
+            <h1
+              style={{
+                fontSize: '30px',
+                fontWeight: 700,
+                color: '#000',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                margin: 0,
+              }}
+            >
+              <img
+                src="/imgs/profile.jpg"
+                alt=""
+                style={{
+                  width: '48px',
+                  height: '48px',
+                  borderRadius: '50%',
+                  objectFit: 'cover',
+                }}
+              />
+              Marcos <span style={{ color: '#f59e0b' }}>David</span> - Proyectos
+            </h1>
+            <p
+              style={{
+                margin: '2px 0 0 36px',
+                color: '#78716c',
+                fontSize: '14px',
+              }}
+            >
+              Todos mis trabajos organizados en un solo lugar.
+            </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            <span className="text-sm text-gray-400">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span style={{ fontSize: '14px', color: '#a8a29e' }}>
               {filteredProjects.length} proyecto
               {filteredProjects.length !== 1 && 's'}
             </span>
-            <div className="relative">
+            <div style={{ position: 'relative' }}>
               <select
                 value={filter}
                 onChange={(e) =>
                   setFilter(e.target.value as ProjectStatus | 'all')
                 }
-                className="appearance-none pl-3.5 pr-9 py-2 bg-gray-50 border border-gray-200 rounded-lg text-sm text-gray-700 font-medium focus:outline-none focus:ring-1 focus:ring-black focus:border-black cursor-pointer"
+                style={{
+                  appearance: 'none',
+                  padding: '8px 36px 8px 14px',
+                  backgroundColor: '#e5e5e5',
+                  border: 'none',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: 500,
+                  color: '#444',
+                  cursor: 'pointer',
+                  outline: 'none',
+                  minWidth: '120px',
+                }}
               >
                 <option value="all">Todos</option>
                 <option value="public">Públicos</option>
                 <option value="private">Privados</option>
+                <option value="in-progress">En progreso</option>
               </select>
               <svg
-                className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none"
+                style={{
+                  position: 'absolute',
+                  right: '12px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  width: '16px',
+                  height: '16px',
+                  color: '#a8a29e',
+                  pointerEvents: 'none',
+                }}
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={2}
@@ -81,9 +137,14 @@ export default function ProjectsPage() {
             onSelect={setSelectedProject}
           />
         ) : (
-          <div className="text-center py-20">
-            <p className="text-gray-400 text-lg">
-              No hay proyectos {filter === 'public' ? 'públicos' : 'privados'}{' '}
+          <div style={{ textAlign: 'center', padding: '80px 0' }}>
+            <p style={{ color: '#a8a29e', fontSize: '18px' }}>
+              No hay proyectos{' '}
+              {filter === 'public'
+                ? 'públicos'
+                : filter === 'in-progress'
+                  ? 'en progreso'
+                  : 'privados'}{' '}
               aún.
             </p>
           </div>

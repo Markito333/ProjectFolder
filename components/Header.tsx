@@ -22,15 +22,13 @@ export default function Header() {
               />
             </svg>
           </div>
-          <span className="font-semibold text-gray-900 group-hover:text-black transition-colors">
-            ProjectFolder
-          </span>
+          <span className="font-semibold text-gray-900">ProjectFolder</span>
         </Link>
 
         <div className="flex items-center gap-4">
           <Link
             href="/"
-            className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
+            className="text-sm font-medium text-white bg-red-400 hover:bg-red-600 transition-colors px-4 py-2 rounded-lg"
           >
             Cerrar sesión
           </Link>

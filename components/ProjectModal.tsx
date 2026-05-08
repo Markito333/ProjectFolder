@@ -155,8 +155,18 @@ export default function ProjectModal({
                 borderRadius: '999px',
                 fontSize: '11px',
                 fontWeight: 500,
-                backgroundColor: project.status === 'public' ? '#d1fae5' : '#fee2e2',
-                color: project.status === 'public' ? '#065f46' : '#991b1b',
+                backgroundColor:
+                  project.status === 'public'
+                    ? '#d1fae5'
+                    : project.status === 'in-progress'
+                      ? '#fef3c7'
+                      : '#fee2e2',
+                color:
+                  project.status === 'public'
+                    ? '#065f46'
+                    : project.status === 'in-progress'
+                      ? '#92400e'
+                      : '#991b1b',
               }}
             >
               <span
@@ -164,11 +174,20 @@ export default function ProjectModal({
                   width: '5px',
                   height: '5px',
                   borderRadius: '50%',
-                  backgroundColor: project.status === 'public' ? '#059669' : '#dc2626',
+                  backgroundColor:
+                    project.status === 'public'
+                      ? '#059669'
+                      : project.status === 'in-progress'
+                        ? '#d97706'
+                        : '#dc2626',
                   display: 'inline-block',
                 }}
               />
-              {project.status === 'public' ? 'Público' : 'Privado'}
+              {project.status === 'public'
+                ? 'Público'
+                : project.status === 'in-progress'
+                  ? 'En progreso'
+                  : 'Privado'}
             </span>
             {allPhotos.length > 1 && (
               <span style={{ fontSize: '11px', color: '#a8a29e', marginLeft: 'auto' }}>

@@ -1,4 +1,4 @@
-export type ProjectStatus = 'public' | 'private';
+export type ProjectStatus = 'public' | 'private' | 'in-progress';
 
 export interface Project {
   id: string;

@@ -58,7 +58,12 @@ export default function ProjectCard({
               borderRadius: '999px',
               fontSize: '10px',
               fontWeight: 500,
-              backgroundColor: project.status === 'public' ? 'rgba(52,211,153,0.85)' : 'rgba(239,68,68,0.8)',
+              backgroundColor:
+                project.status === 'public'
+                  ? 'rgba(52,211,153,0.85)'
+                  : project.status === 'in-progress'
+                    ? 'rgba(251,191,36,0.85)'
+                    : 'rgba(239,68,68,0.8)',
               color: '#fff',
             }}
           >
@@ -71,7 +76,11 @@ export default function ProjectCard({
                 display: 'inline-block',
               }}
             />
-            {project.status === 'public' ? 'Público' : 'Privado'}
+            {project.status === 'public'
+              ? 'Público'
+              : project.status === 'in-progress'
+                ? 'En progreso'
+                : 'Privado'}
           </div>
         </div>
         <div style={{ padding: '10px 12px 12px' }}>
