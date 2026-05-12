@@ -61,7 +61,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen9.jpg',
     ],
     status: 'public',
-    link: 'https://example.com/neuronalbible',
+    link: 'https://neuronalbible.vercel.app/',
     duration: '1 mes',
     technologies: [
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
@@ -83,6 +83,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen11.jpg',
     ],
     status: 'public',
+    link: 'https://carisa.onrender.com/',
     duration: '5 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
@@ -101,14 +102,13 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen12.jpg',
       '/imgs/projects/Imagen1.png',
     ],
-    status: 'public',
+    status: 'private',
     duration: '3 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+     
     ],
   },
   {
@@ -123,7 +123,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen3.jpg',
     ],
     status: 'public',
-    link: 'https://example.com/verdeplants',
+    link: 'https://verdeplants.onrender.com/',
     duration: '4 meses',
     technologies: [
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
