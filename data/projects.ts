@@ -147,7 +147,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen4.jpg',
       '/imgs/projects/Imagen5.jpg',
     ],
-    status: 'private',
+    status: 'public',
     duration: '11 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
@@ -260,7 +260,90 @@ export const projects: Project[] = [
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
       { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
 
-    
+    ],
+  },
+  {
+    id: '13',
+    title: 'Ventas Martin',
+    company: 'VentasMartin',
+    description:
+      'Plataforma web para ventas y facturas con afip integración.',
+    mainPhoto: '/imgs/projects/Imagen3.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'private',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+      { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
+      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+
+    ],
+  },
+   {
+    id: '14',
+    title: 'Invitación de boda',
+    company: 'Independiente',
+    description:
+      'Sitio web de invitación para la boda de una hermosa pareja.',
+    mainPhoto: '/imgs/projects/Imagen7.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'public',
+    link: 'https://invitacionboda-lonh.onrender.com/',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    ],
+  },
+   {
+    id: '15',
+    title: 'DM Shop Market',
+    company: 'dmshop',
+    description:
+      'Sitio web de catálogo de productos, con pedidos directos al Whatsapp.',
+    mainPhoto: '/imgs/projects/Imagen6.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'public',
+    link: 'https://dmmarket.onrender.com/',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    ],
+  },
+   {
+    id: '16',
+    title: 'BookingFWI Boats',
+    company: 'bookingfwi',
+    description:
+      'Sitio web de catálogo para alquiler de habitaciones, reserva de aventuras en el caribe, y alquiler de yates.',
+    mainPhoto: '/imgs/projects/Imagen8.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'public',
+    link: 'https://emotionboatclub.bookingfwi.com/',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
     ],
   },
 ];
