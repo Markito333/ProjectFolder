@@ -4,9 +4,9 @@ export const projects: Project[] = [
   {
     id: '1',
     title: 'VetSys',
-    company: 'Veterinaria Central',
+    company: 'CarIsa',
     description:
-      'Sistema de gestión integral para veterinarias con control de pacientes, historial clínico, citas y facturación.',
+      'Sistema de gestión integral para la clinica veterina para el control de pacientes, historial clínico, citas, facturación y gestión de stock.',
     mainPhoto: '/imgs/projects/VetSys.png',
     photos: [
       '/imgs/projects/Imagen3.jpg',
@@ -15,13 +15,16 @@ export const projects: Project[] = [
     ],
     status: 'private',
     link: 'https://example.com/vetsys',
-    duration: '6 meses',
+    duration: '8 meses',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+     { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
       { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+      { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+
     ],
   },
   {
@@ -29,7 +32,7 @@ export const projects: Project[] = [
     title: 'Blog Cristiano',
     company: 'Independiente',
     description:
-      'Blog cristiano, para publicacion y consultas sobre consejería cristiana.',
+      'Blog cristiano / Sanando el Corazón, para publicación y consultas sobre consejería cristiana.',
     mainPhoto: '/imgs/projects/blog.png',
     photos: [
       '/imgs/projects/imagen6.jpg',
@@ -39,9 +42,11 @@ export const projects: Project[] = [
     link: 'https://example.com/blog',
     duration: '2 meses',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+      { name: 'Vite', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg' },
+      { name: 'TailwindCSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+      { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
     ],
   },
   {
@@ -55,15 +60,15 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen8.jpg',
       '/imgs/projects/Imagen9.jpg',
     ],
-    status: 'in-progress',
+    status: 'public',
     link: 'https://example.com/neuronalbible',
-    duration: '8 meses',
+    duration: '1 mes',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'TensorFlow', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg' },
+      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+      { name: 'Taildwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+      { name: 'NextJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+
     ],
   },
   {
@@ -111,7 +116,7 @@ export const projects: Project[] = [
     title: 'Verde Plants',
     company: 'VerdeLab',
     description:
-      'E-commerce de plantas ornamentales con catálogo interactivo, guía de cuidados y envío a domicilio.',
+      'Sitio web completo para la gestión de plantas y vegetación de un contexto determinado.',
     mainPhoto: '/imgs/projects/verdeplants.png',
     photos: [
       '/imgs/projects/Imagen2.jpg',
@@ -121,17 +126,20 @@ export const projects: Project[] = [
     link: 'https://example.com/verdeplants',
     duration: '4 meses',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+      { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+      { name: 'Taildwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
+      { name: 'NextJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
       { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+      { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
+      { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+
     ],
   },
   {
     id: '7',
-    title: 'MascoLive',
-    company: 'PetServices',
+    title: 'Mascolive',
+    company: 'mascolive',
     description:
       'Plataforma de servicios veterinarios a domicilio con geolocalización, reservas en tiempo real y perfiles de mascotas.',
     mainPhoto: '/imgs/projects/mascolive.png',
@@ -139,80 +147,74 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen4.jpg',
       '/imgs/projects/Imagen5.jpg',
     ],
-    status: 'public',
-    duration: '7 meses',
+    status: 'private',
+    duration: '11 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
     ],
   },
   {
     id: '8',
-    title: 'Dashboard Financiero',
-    company: 'DataFinance',
+    title: 'InfanteSoft',
+    company: 'Círculo Infantil "JFCV"',
     description:
-      'Dashboard interactivo para análisis financiero con visualización de datos, reportes automatizados y predicciones.',
+      'Sistema web integral, para la gestion de infantes, stock, cursos, trabajadores y más, en un círculo infantil.',
     mainPhoto: '/imgs/projects/Imagen1.png',
     photos: [
       '/imgs/projects/imagen6.jpg',
       '/imgs/projects/Imagen7.jpg',
     ],
-    status: 'public',
+    status: 'private',
     duration: '4 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'D3.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg' },
+      { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
+      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+
     ],
   },
   {
     id: '9',
-    title: 'App de Recetas',
-    company: 'CookHub',
+    title: 'Sitio web de Recetas',
+    company: 'UNAH',
     description:
-      'Red social de recetas con subida de fotos, valoraciones, lista de ingredientes inteligente y planificador de comidas.',
-    mainPhoto: '/imgs/projects/Imagen2.jpg',
+      'Sitio web para consultar recetas cubanas, italianas y españolas en un restaurante.',
+    mainPhoto: '/imgs/projects/Imagen5.jpg',
     photos: [
       '/imgs/projects/Imagen8.jpg',
       '/imgs/projects/Imagen9.jpg',
       '/imgs/projects/Imagen10.jpg',
     ],
-    status: 'public',
-    link: 'https://example.com/recetas',
+    status: 'private',
     duration: '3 meses',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+           { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
+
     ],
   },
   {
     id: '10',
-    title: 'Plataforma IoT',
-    company: 'SmartHome',
+    title: 'TikTok LOVE',
+    company: 'bookingfwi',
     description:
-      'Plataforma de Internet de las Cosas para hogares inteligentes con control remoto de dispositivos, automatización de rutinas y monitoreo en tiempo real mediante sensores.',
+      'Sitio web promocional para diseños LOVE en TikTok',
     mainPhoto: '/imgs/projects/Imagen11.jpg',
     photos: [
       '/imgs/projects/Imagen12.jpg',
       '/imgs/projects/Imagen1.png',
     ],
-    status: 'in-progress',
-    duration: '2 meses',
+    status: 'private',
+    duration: '1 mes',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+      { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
+      
     ],
   },
    {
@@ -229,9 +231,12 @@ export const projects: Project[] = [
     status: 'private',
     duration: '1 mes',
     technologies: [
-      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+    { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+      { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
+      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
     ],
   },
   {
@@ -251,8 +256,11 @@ export const projects: Project[] = [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+      { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
+      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+
+    
     ],
   },
 ];
