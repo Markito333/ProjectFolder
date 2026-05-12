@@ -148,6 +148,7 @@ export const projects: Project[] = [
       '/imgs/projects/Imagen5.jpg',
     ],
     status: 'public',
+    link:'https://mascolive-smav.onrender.com/',
     duration: '11 meses',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
@@ -264,10 +265,10 @@ export const projects: Project[] = [
   },
   {
     id: '13',
-    title: 'Ventas Martin',
+    title: 'Sistema de gestión CUM',
     company: 'VentasMartin',
     description:
-      'Plataforma web para ventas y facturas con afip integración.',
+      'Sistema de gestión para el centro universitario municipal de Guanajay, permitiendo el manejo y gestión de cursos, trabajadores, proyectos y eventos.',
     mainPhoto: '/imgs/projects/Imagen3.jpg',
     photos: [
       '/imgs/projects/Imagen12.jpg',
@@ -279,9 +280,9 @@ export const projects: Project[] = [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-      { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-      { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+      { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+      { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+      { name: 'Sping', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
 
     ],
   },
