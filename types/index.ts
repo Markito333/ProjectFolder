@@ -16,4 +16,5 @@ export interface Project {
   link?: string;
   duration: string;
   technologies: Technology[];
+  role: string;
 }

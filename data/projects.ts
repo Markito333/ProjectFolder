@@ -16,6 +16,7 @@ export const projects: Project[] = [
     status: 'private',
     link: 'https://example.com/vetsys',
     duration: '8 meses',
+    role: 'FullStack',
     technologies: [
      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -24,7 +25,6 @@ export const projects: Project[] = [
       { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-
     ],
   },
   {
@@ -41,6 +41,7 @@ export const projects: Project[] = [
     status: 'in-progress',
     link: 'https://example.com/blog',
     duration: '2 meses',
+    role: 'Frontend',
     technologies: [
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
@@ -63,12 +64,12 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://neuronalbible.vercel.app/',
     duration: '1 mes',
+    role: 'FullStack',
     technologies: [
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
       { name: 'Taildwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
       { name: 'NextJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-
     ],
   },
   {
@@ -85,6 +86,7 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://carisa.onrender.com/',
     duration: '5 meses',
+    role: 'FullStack',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -104,11 +106,11 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '3 meses',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-     
     ],
   },
   {
@@ -125,6 +127,7 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://verdeplants.onrender.com/',
     duration: '4 meses',
+    role: 'FullStack',
     technologies: [
       { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
       { name: 'Taildwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg' },
@@ -133,7 +136,6 @@ export const projects: Project[] = [
       { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
       { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-
     ],
   },
   {
@@ -150,6 +152,7 @@ export const projects: Project[] = [
     status: 'public',
     link:'https://mascolive-smav.onrender.com/',
     duration: '11 meses',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -169,6 +172,7 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '4 meses',
+    role: 'FullStack',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -176,7 +180,6 @@ export const projects: Project[] = [
       { name: 'SpringBoot', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
       { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-
     ],
   },
   {
@@ -193,9 +196,9 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '3 meses',
+    role: 'FullStack',
     technologies: [
-           { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
-
+      { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
     ],
   },
   {
@@ -211,14 +214,14 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
-      
     ],
   },
-   {
+  {
     id: '11',
     title: 'Panaderia IToto',
     company: 'PanaderiaIItoto',
@@ -231,8 +234,9 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'Backend',
     technologies: [
-    { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
       { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
@@ -253,6 +257,7 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'FullStack',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -260,13 +265,12 @@ export const projects: Project[] = [
       { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
       { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
-
     ],
   },
   {
     id: '13',
     title: 'Sistema de gestión CUM',
-    company: 'VentasMartin',
+    company: 'CUM',
     description:
       'Sistema de gestión para el centro universitario municipal de Guanajay, permitiendo el manejo y gestión de cursos, trabajadores, proyectos y eventos.',
     mainPhoto: '/imgs/projects/Imagen3.jpg',
@@ -276,6 +280,7 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'FullStack',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
@@ -283,10 +288,9 @@ export const projects: Project[] = [
       { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
       { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
       { name: 'Sping', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg' },
-
     ],
   },
-   {
+  {
     id: '14',
     title: 'Invitación de boda',
     company: 'Independiente',
@@ -300,13 +304,14 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://invitacionboda-lonh.onrender.com/',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     ],
   },
-   {
+  {
     id: '15',
     title: 'DM Shop Market',
     company: 'dmshop',
@@ -320,13 +325,14 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://dmmarket.onrender.com/',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     ],
   },
-   {
+  {
     id: '16',
     title: 'BookingFWI Boats',
     company: 'bookingfwi',
@@ -340,14 +346,15 @@ export const projects: Project[] = [
     status: 'public',
     link: 'https://emotionboatclub.bookingfwi.com/',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
+      { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
     ],
   },
-   {  
+  {
     id: '17',
     title: 'BookingFWI LOVE Shop',
     company: 'bookingfwi',
@@ -360,14 +367,15 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
       { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
+      { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
     ],
   },
-  {  
+  {
     id: '18',
     title: 'Remesas Sony TopUp',
     company: 'Sony topup',
@@ -380,6 +388,7 @@ export const projects: Project[] = [
     ],
     status: 'private',
     duration: '1 mes',
+    role: 'Frontend',
     technologies: [
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },

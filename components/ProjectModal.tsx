@@ -197,6 +197,20 @@ export default function ProjectModal({
           </div>
 
           <p style={{ margin: 0, fontSize: '11px', fontWeight: 500, color: '#a8a29e', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+            <span style={{
+              display: 'inline-block',
+              padding: '1px 8px',
+              borderRadius: '4px',
+              backgroundColor: '#f5f5f4',
+              color: '#57534e',
+              textTransform: 'uppercase',
+              fontSize: '10px',
+              fontWeight: 600,
+              letterSpacing: '0.05em',
+              marginRight: '8px',
+            }}>
+              {project.role}
+            </span>
             {project.company}
           </p>
           <h2 style={{ margin: '4px 0 16px', fontSize: '22px', fontWeight: 700, color: '#1c1917', lineHeight: 1.2 }}>
