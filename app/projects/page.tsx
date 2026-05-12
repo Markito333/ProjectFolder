@@ -34,47 +34,10 @@ export default function ProjectsPage() {
           style={{
             display: 'flex',
             alignItems: 'flex-end',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '16px',
+            justifyContent: 'flex-end',
             marginBottom: '40px',
           }}
         >
-          <div>
-            <h1
-              style={{
-                fontSize: '30px',
-                fontWeight: 700,
-                color: '#000',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px',
-                margin: 0,
-              }}
-            >
-              <img
-                src="/imgs/profile.jpg"
-                alt=""
-                style={{
-                  width: '48px',
-                  height: '48px',
-                  borderRadius: '50%',
-                  objectFit: 'cover',
-                }}
-              />
-              Marcos <span style={{ color: '#f59e0b' }}>David</span> - Proyectos
-            </h1>
-            <p
-              style={{
-                margin: '2px 0 0 36px',
-                color: '#78716c',
-                fontSize: '14px',
-              }}
-            >
-              Todos mis trabajos organizados en un solo lugar.
-            </p>
-          </div>
-
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <span style={{ fontSize: '14px', color: '#a8a29e' }}>
               {filteredProjects.length} proyecto
