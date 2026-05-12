@@ -346,4 +346,43 @@ export const projects: Project[] = [
     { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
     ],
   },
+   {  
+    id: '17',
+    title: 'BookingFWI LOVE Shop',
+    company: 'bookingfwi',
+    description:
+      'Sitio web de catálogo para alquiler de habitaciones, reserva de aventuras en el caribe, y alquiler de yates.',
+    mainPhoto: '/imgs/projects/Imagen10.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'private',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    { name: 'WordPress', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg' },
+    ],
+  },
+  {  
+    id: '18',
+    title: 'Remesas Sony TopUp',
+    company: 'Sony topup',
+    description:
+      'Sitio web de catálogo para compra de ropa basadas en la marca LOVE.',
+    mainPhoto: '/imgs/projects/Imagen12.jpg',
+    photos: [
+      '/imgs/projects/Imagen12.jpg',
+      '/imgs/projects/Imagen1.png',
+    ],
+    status: 'private',
+    duration: '1 mes',
+    technologies: [
+      { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+      { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+      { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+    ],
+  },
 ];
