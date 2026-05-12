@@ -206,6 +206,18 @@ export default function ProjectModal({
             {project.description}
           </p>
 
+          <div style={{ display: 'flex', gap: '12px', marginTop: '16px', flexWrap: 'wrap', alignItems: 'center' }}>
+            {project.technologies.map((tech) => (
+              <img
+                key={tech.name}
+                src={tech.icon}
+                alt={tech.name}
+                title={tech.name}
+                style={{ width: '28px', height: '28px' }}
+              />
+            ))}
+          </div>
+
           <div style={{ marginTop: '20px', paddingTop: '16px', borderTop: '1px solid #f0f0f0' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: '#78716c' }}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>

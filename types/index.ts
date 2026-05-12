@@ -1,5 +1,10 @@
 export type ProjectStatus = 'public' | 'private' | 'in-progress';
 
+export interface Technology {
+  name: string;
+  icon: string;
+}
+
 export interface Project {
   id: string;
   title: string;
@@ -10,4 +15,5 @@ export interface Project {
   status: ProjectStatus;
   link?: string;
   duration: string;
+  technologies: Technology[];
 }
