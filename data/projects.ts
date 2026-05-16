@@ -317,7 +317,7 @@ export const projects: Project[] = [
     company: 'dmshop',
     description:
       'Sitio web de catálogo de productos, con pedidos directos al Whatsapp.',
-    mainPhoto: '/imgs/projects/Imagen6.jpg',
+    mainPhoto: '/imgs/projects/imagen6.jpg',
     photos: [
       '/imgs/projects/Imagen12.jpg',
       '/imgs/projects/Imagen1.png',
