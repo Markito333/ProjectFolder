@@ -14,7 +14,7 @@ export default function ProjectGrid({
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(6, 1fr)',
+        gridTemplateColumns: 'repeat(4, 1fr)',
         gap: '14px',
       }}
     >

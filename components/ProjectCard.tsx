@@ -17,7 +17,6 @@ export default function ProjectCard({
       <div
         style={{
           position: 'relative',
-          borderRadius: '10px',
           overflow: 'hidden',
           backgroundColor: '#f5f5f4',
           border: '1px solid #f0f0f0',
