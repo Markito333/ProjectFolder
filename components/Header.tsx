@@ -28,7 +28,7 @@ export default function Header({
             />
             <div>
               <span className="font-semibold text-gray-900">
-                Marcos <span className="text-amber-500">David</span> — Proyectos
+                Marcos <span className="text-yellow-400">David</span> — Proyectos
               </span>
               <p className="text-xs text-gray-400 m-0 leading-tight">
                 Todos mis trabajos organizados en un solo lugar.
@@ -49,16 +49,16 @@ export default function Header({
                     onChange={(e) => setFilter(e.target.value as ProjectStatus | 'all')}
                     style={{
                       appearance: 'none',
-                      padding: '8px 36px 8px 14px',
+                      padding: '4px 28px 4px 10px',
                       backgroundColor: '#e5e5e5',
                       border: 'none',
-                      borderRadius: '8px',
-                      fontSize: '14px',
+                      borderRadius: '6px',
+                      fontSize: '12px',
                       fontWeight: 500,
                       color: '#444',
                       cursor: 'pointer',
                       outline: 'none',
-                      minWidth: '120px',
+                      minWidth: '90px',
                     }}
                   >
                     <option value="all">Todos</option>
@@ -93,7 +93,7 @@ export default function Header({
             )}
             <button
               onClick={() => setShowLogout(true)}
-              className="text-sm font-medium text-white bg-red-400 hover:bg-red-600 transition-colors px-4 py-2 rounded-lg"
+              className="text-xs font-medium text-white bg-red-400 hover:bg-red-600 transition-colors px-3 py-1.5 rounded-md"
             >
               Cerrar sesión
             </button>

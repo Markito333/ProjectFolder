@@ -35,15 +35,28 @@ export default function ProjectsPage() {
       >
         <div
           style={{
-            width: '300px',
+            width: '200px',
             flexShrink: 0,
-            borderRadius: '12px',
             overflow: 'hidden',
-            backgroundColor: '#f5f5f4',
           }}
         >
+          <h2
+            style={{
+              fontSize: '18px',
+              fontWeight: 600,
+              color: '#44403c',
+              marginBottom: '12px',
+              textDecoration: 'underline',
+              textDecorationColor: '#fde68a',
+              textUnderlineOffset: '4px',
+              textDecorationThickness: '2px',
+              textAlign: "center",
+            }}
+          >
+            ProjectFolder
+          </h2>
           <img
-            src="/imgs/projectimg.png"
+            src="/imgs/projectimgg.png"
             alt="Proyectos"
             style={{
               width: '100%',
@@ -52,6 +65,18 @@ export default function ProjectsPage() {
               objectFit: 'cover',
             }}
           />
+          <p
+            style={{
+              marginTop: '16px',
+              fontSize: '13px',
+              lineHeight: '1.6',
+              color: '#78716c',
+              fontStyle: 'italic',
+            }}
+          >
+            Portfolio personal donde muestro mis proyectos de desarrollo web,
+            junto a todos los detalles.
+          </p>
         </div>
         <div style={{ flex: 1, maxHeight: 'calc(100vh - 140px)', overflowY: 'auto' }}>
           {filteredProjects.length > 0 ? (
