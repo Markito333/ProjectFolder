@@ -157,16 +157,16 @@ export default function ProjectModal({
                 fontWeight: 500,
                 backgroundColor:
                   project.status === 'public'
-                    ? '#bbf7d0'
+                    ? '#22c55e'
                     : project.status === 'in-progress'
-                      ? '#fef3c7'
-                      : '#fecaca',
+                      ? '#fbbf24'
+                      : '#ef4444',
                 color:
                   project.status === 'public'
-                    ? '#166534'
+                    ? '#ffffff'
                     : project.status === 'in-progress'
-                      ? '#92400e'
-                      : '#991b1b',
+                      ? '#000000'
+                      : '#ffffff',
               }}
             >
               <span
@@ -176,10 +176,10 @@ export default function ProjectModal({
                   borderRadius: '50%',
                   backgroundColor:
                     project.status === 'public'
-                      ? '#166534'
+                      ? '#ffffff'
                       : project.status === 'in-progress'
-                        ? '#92400e'
-                        : '#991b1b',
+                        ? '#000000'
+                        : '#ffffff',
                   display: 'inline-block',
                 }}
               />
