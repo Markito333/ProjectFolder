@@ -11,13 +11,7 @@ export default function ProjectGrid({
   onSelect: (project: Project) => void;
 }) {
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(4, 1fr)',
-        gap: '14px',
-      }}
-    >
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
       {projects.map((project) => (
         <ProjectCard
           key={project.id}

@@ -1,8 +1,6 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
-import LogoutModal from './LogoutModal';
 import { ProjectStatus } from '@/types';
 
 export default function Header({
@@ -14,7 +12,6 @@ export default function Header({
   setFilter?: (f: ProjectStatus | 'all') => void;
   projectCount?: number;
 }) {
-  const [showLogout, setShowLogout] = useState(false);
 
   return (
     <>
@@ -91,17 +88,9 @@ export default function Header({
                 </div>
               </div>
             )}
-            <button
-              onClick={() => setShowLogout(true)}
-              className="text-xs font-medium text-white bg-red-400 hover:bg-red-600 transition-colors px-3 py-1.5 rounded-md"
-            >
-              Cerrar sesión
-            </button>
           </div>
         </div>
       </header>
-
-      {showLogout && <LogoutModal onClose={() => setShowLogout(false)} />}
     </>
   );
 }

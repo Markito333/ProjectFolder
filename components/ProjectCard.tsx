@@ -12,101 +12,67 @@ export default function ProjectCard({
   return (
     <div
       onClick={() => onSelect(project)}
-      style={{ cursor: 'pointer' }}
+      className="group cursor-pointer rounded-xl border border-stone-200 bg-white transition-all duration-300 hover:shadow-lg hover:shadow-stone-200/60 hover:-translate-y-0.5"
     >
-      <div
-        style={{
-          position: 'relative',
-          overflow: 'hidden',
-          backgroundColor: '#f5f5f4',
-          border: '1px solid #f0f0f0',
-          transition: 'box-shadow 0.3s',
-        }}
-        onMouseEnter={(e) => {
-          e.currentTarget.style.boxShadow = '0 8px 25px rgba(0,0,0,0.08)';
-        }}
-        onMouseLeave={(e) => {
-          e.currentTarget.style.boxShadow = 'none';
-        }}
-      >
-        <div style={{ position: 'relative', width: '100%', paddingBottom: '75%', overflow: 'hidden' }}>
+      <div className="relative overflow-hidden rounded-t-xl bg-stone-50">
+        <div className="relative w-full overflow-hidden" style={{ paddingBottom: '72%' }}>
           <img
             src={project.mainPhoto}
             alt={project.title}
-            style={{
-              position: 'absolute',
-              inset: 0,
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              transition: 'transform 0.4s',
-            }}
-            onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.05)'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; }}
+            className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-105"
             loading="lazy"
           />
-          <div
-            style={{
-              position: 'absolute',
-              top: '8px',
-              right: '8px',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '4px',
-              padding: '3px 8px',
-              borderRadius: '999px',
-              fontSize: '10px',
-              fontWeight: 500,
-              backgroundColor:
-                project.status === 'public'
-                  ? 'rgba(187,247,208,0.9)'
-                  : project.status === 'in-progress'
-                    ? 'rgba(254,243,199,0.9)'
-                    : 'rgba(254,202,202,0.9)',
-              color:
-                project.status === 'public'
-                  ? '#166534'
-                  : project.status === 'in-progress'
-                    ? '#92400e'
-                    : '#991b1b',
-            }}
-          >
-            <span
-              style={{
-                width: '5px',
-                height: '5px',
-                borderRadius: '50%',
-                backgroundColor:
-                  project.status === 'public'
-                    ? '#166534'
-                    : project.status === 'in-progress'
-                      ? '#92400e'
-                      : '#991b1b',
-                display: 'inline-block',
-              }}
-            />
-            {project.status === 'public'
-              ? 'Público'
+        </div>
+        <span
+          className={`absolute right-2.5 top-2.5 inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-medium tracking-tight ${
+            project.status === 'public'
+              ? 'bg-emerald-50 text-emerald-700'
               : project.status === 'in-progress'
-                ? 'En progreso'
-                : 'Privado'}
+                ? 'bg-amber-50 text-amber-700'
+                : 'bg-rose-50 text-rose-700'
+          }`}
+        >
+          <span
+            className={`h-1.5 w-1.5 rounded-full ${
+              project.status === 'public'
+                ? 'bg-emerald-500'
+                : project.status === 'in-progress'
+                  ? 'bg-amber-500'
+                  : 'bg-rose-500'
+            }`}
+          />
+          {project.status === 'public'
+            ? 'Público'
+            : project.status === 'in-progress'
+              ? 'En progreso'
+              : 'Privado'}
+        </span>
+      </div>
+      <div className="space-y-1.5 p-4">
+        <h3 className="truncate text-sm font-semibold text-stone-800">
+          {project.title}
+        </h3>
+        <p className="truncate text-xs text-stone-400">
+          {project.company}
+        </p>
+        {project.technologies.length > 0 && (
+          <div className="flex flex-wrap gap-2 pt-1.5">
+            {project.technologies.slice(0, 4).map((tech) => (
+              <img
+                key={tech.name}
+                src={tech.icon}
+                alt={tech.name}
+                title={tech.name}
+                className="h-4 w-4 opacity-60 grayscale transition-opacity group-hover:opacity-100"
+              />
+            ))}
+            {project.technologies.length > 4 && (
+              <span className="text-[10px] text-stone-300 leading-4">
+                +{project.technologies.length - 4}
+              </span>
+            )}
           </div>
-        </div>
-        <div style={{ padding: '10px 12px 12px' }}>
-          <h3
-            style={{
-              margin: 0,
-              fontSize: '13px',
-              fontWeight: 600,
-              color: '#1c1917',
-              overflow: 'hidden',
-              textOverflow: 'ellipsis',
-              whiteSpace: 'nowrap',
-            }}
-          >
-            {project.title}
-          </h3>
-        </div>
+        )}
       </div>
     </div>
   );
