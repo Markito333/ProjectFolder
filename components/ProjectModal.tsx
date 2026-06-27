@@ -10,7 +10,7 @@ export default function ProjectModal({
   project: Project;
   onClose: () => void;
 }) {
-  const allPhotos = [project.mainPhoto, ...project.photos];
+  const allPhotos = [project.mainPhoto];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goNext = useCallback(() => {

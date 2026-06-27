@@ -421,9 +421,10 @@ export const projects: Project[] = [
     company: 'Coffsound (Proyecto personal)',
     description:
       'Plataforma de reproducción musical Coffsound, donde se ofrecen varios servicios basados en bibliotecas locales, servicios como datos de artistas, playlists, álbumes, canciones, estadísticas y mucho más.',
-    mainPhoto: '/imgs/projects/placeholder.svg',
+    mainPhoto: '/imgs/projects/coffsound.png',
     photos: [],
     status: 'public',
+    link: 'https://coffsound.vercel.app',
     duration: 'mayo 2025 - actualidad',
     role: 'Desarrollador web',
     technologies: [
